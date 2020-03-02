@@ -15,3 +15,9 @@ end
 def move(board,index,player="X")
   board[index]=player
 end
+
+puts "Welcome to Tic Tac Toe!"
+puts "Where would you like to go?"
+
+input = gets.strip
+input_to_index(input)
